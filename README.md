@@ -18,4 +18,5 @@
 6. Each note should have a unique ID.
 
 
-Linked to deployed Heroku: https://pure-retreat-24040.herokuapp.com/
+Link to deployed Heroku: https://pure-retreat-24040.herokuapp.com/
+Link to GitHub: https://github.com/Kianna41/Note-Taker
