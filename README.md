@@ -16,3 +16,6 @@
 4. Application should have GET/api/notes that reads the db.json file and returns all saved notes as JSON
 5. Application should have POST/api/notes that receives a new note to save on the request body, add it to the db.json file, and then return note to client.
 6. Each note should have a unique ID.
+
+
+Linked to deployed Heroku: https://pure-retreat-24040.herokuapp.com/
