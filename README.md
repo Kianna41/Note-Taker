@@ -17,6 +17,15 @@
 5. Application should have POST/api/notes that receives a new note to save on the request body, add it to the db.json file, and then return note to client.
 6. Each note should have a unique ID.
 
+https://user-images.githubusercontent.com/107634328/191637626-e9d8c9be-4f8a-4d0e-be33-2cb78e7fe9e7.mov
+
+
+
 
 Link to deployed Heroku: https://pure-retreat-24040.herokuapp.com/
+
 Link to GitHub: https://github.com/Kianna41/Note-Taker
+
+
+https://user-images.githubusercontent.com/107634328/191637668-164bb726-9f5e-405d-b48e-b779f083122c.mov
+
