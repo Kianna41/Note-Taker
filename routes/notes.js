@@ -27,22 +27,7 @@ router.post("/", (req, res) => {
 
     readAndAppend(noteBody, "./db/db.json");
 
-    fs.readFile("./db/db.json", "utf8", (err, data) => {
-      if (err) {
-        console.error(err);
-      } else {
-        const parsedData = JSON.parse(data);
-        parsedData.push(noteBody);
-        fs.writeFile("./db/db.json", JSON.stringify(parsedData), () => {
-          const response = {
-            status: "success",
-            body: noteBody,
-          };
-
-          res.status(201).json(response);
-        });
-      }
-    });
+    res.status(201).json(noteBody);
 
     // write to file
   }
